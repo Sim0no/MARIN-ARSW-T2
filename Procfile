@@ -1,1 +1,1 @@
-web: java -jar target/ARSW-PARCIAL-2T-0.0.1-SNAPSHOT.jar
+web: java -cp target/classes edu.eci.arsw.weather.WeatherApplication
