@@ -33,7 +33,7 @@ const app = (() =>{
              <tr><td>Wind deg</td><td>${weatherStats.wind.deg}</td></tr>
              `
         );
-        plotMarkers(weatherStats.coord);
+        plotMarkers(weatherStats.coor);
 
 
     }
@@ -65,10 +65,10 @@ const app = (() =>{
         map.setZoom(4);
     }
     function empty(){
-        $("#city").empty();
-        $("#weather").empty();
-        $("#mainStats").empty();
-        $("#windStats").empty();
+        $("#cityb").empty();
+        $("#weatherb").empty();
+        $("#mainStatsb").empty();
+        $("#windStatsb").empty();
     }
     const getWeatherByCity = (city) =>{
         empty();
